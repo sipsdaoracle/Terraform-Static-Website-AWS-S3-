@@ -1,0 +1,1 @@
+website_bucket_name = "sips-static-website-bucket"
