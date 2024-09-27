@@ -11,3 +11,4 @@ envs/dev/backend/terraform.tfstate
 backend/.terraform/
 backend/.terrafom.lock.hcl
 .terrafom.lock.hcl
+.terrafom

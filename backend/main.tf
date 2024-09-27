@@ -7,7 +7,7 @@ terraform {
 }
 
 provider "aws" {
-  profile = "terraform-sips"
+  profile = "default"
   region = var.region
 }
 
