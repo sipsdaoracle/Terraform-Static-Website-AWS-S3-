@@ -175,19 +175,27 @@ Access your static website using the domain name specified in the domain_name va
 
 After successful deployment, you should see your S3 bucket in the AWS console:
 
-![S3 Bucket](images/s3_bucket.png)
+![S3 Bucke](s3-buckets.png)
+
+### Remote State
+
+After deploying you should see your remote state backend:
+
+![Terraform State File](terraform-tfstate.png)
 
 ### CloudFront Distribution
 
 The CloudFront distribution for your website:
 
-![CloudFront Distribution](images/cloudfront_distribution.png)d
+![CloudFront Distribution](distribution-domain.png)
 
 ## Website Endpoint
 
 After deploying your website content to the S3 bucket, you should be able to access it via the CloudFront URL or your custom domain. Here's how it looks:
 
-![Website Endpoint](images/website_endpoint.png)
+![Website Endpoint](cloudfront-domain-url.png)
+
+
 ## License
 [ MIT License 2.0]
 
